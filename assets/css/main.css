@@ -3219,13 +3219,3 @@ input, select, textarea {
 			}
 
 	}
-			.o2t-element--hidden {
-  				  opacity: 0;
-   				 visibility: hidden;
-   				 transition: 0.55s opacity, 0.55s visibility;
-			}
-
-			.o2t-element:hover~.o2t-element--hidden {
-   				 opacity: 1;
-   				 visibility: visible;
-			}
