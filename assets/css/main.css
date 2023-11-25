@@ -3219,7 +3219,7 @@ input, select, textarea {
 			}
 
 	}
-			details {
+			summary {
  				 opacity: 0;
  				 animation: ani 2.5s forwards;
 			}
