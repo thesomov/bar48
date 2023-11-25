@@ -2464,17 +2464,17 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #333333;
-			color: #333333 !important;
+			border-color: #cccccc;
+			color: #cccccc !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #333333;
-			color: #333333 !important;
+			background-color: #333333;
+			border-color: #cccccc;
+			color: #cccccc !important;
 		}
 
 		input[type="submit"].icon,
