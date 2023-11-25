@@ -3219,12 +3219,13 @@ input, select, textarea {
 			}
 
 	}
-			summary {
- 				 opacity: 0;
- 				 animation: ani 2.5s forwards;
+			.o2t-element--hidden {
+  				  opacity: 0;
+   				 visibility: hidden;
+   				 transition: 0.55s opacity, 0.55s visibility;
 			}
 
-				@keyframes ani {
-  				0% {opacity: 0;}
-  				100% {opacity: 1;}
-	}
+			.o2t-element:hover~.o2t-element--hidden {
+   				 opacity: 1;
+   				 visibility: visible;
+			}
