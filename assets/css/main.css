@@ -190,8 +190,8 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
-		margin: 2em 0;
+		border-bottom: solid 2px #3f3f3f;
+		margin: 1em 0;
 	}
 
 		hr.major {
