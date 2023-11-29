@@ -2693,8 +2693,7 @@ input, select, textarea {
   display: block; /* Избавляет от возможного пространства под изображением */
   max-width: none; /* Отменяет ограничение по максимальной ширине изображения */
   max-height: none; /* Отменяет ограничение по максимальной высоте изображения */
-  padding-top: -40px; /* Уменьшаем padding сверху */
-  padding-bottom: 40px;
+  padding-top: -100px; /* Уменьшаем padding сверху */
 }
 
 
