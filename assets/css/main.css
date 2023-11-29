@@ -2688,7 +2688,8 @@ input, select, textarea {
   max-height: 147px; /* Ограничивает максимальную высоту контейнера */
   margin-left: auto; /* Устанавливаем отступ слева */
   margin-right: auto; /* Устанавливаем отступ справа */
-  padding-top: 10px; /* Уменьшаем padding сверху */
+  padding-top: -20px; /* Уменьшаем padding сверху */
+  padding-bottom: 20px;
 }
 .image-container1 img {
   display: block; /* Избавляет от возможного пространства под изображением */
