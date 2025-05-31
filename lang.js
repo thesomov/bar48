@@ -5,7 +5,7 @@ const translations = {
     bar48batumidrink: `Drinks - Bar 48 - Batumi`,
     bar48: `Bar 48`,
     open: `Open from 00:30 to 06:00`,
-    address: `<a href="https://www.google.com/maps/place/Bar+48/@41.6472818,41.6299166,17z/data=!4m6!3m5!1s0x4067877c6534400d:0x36e22db643766849!8m2!3d41.6474543!4d41.6323109!16s%2Fg%2F11rvh7wrxh" target="_blank">Batumi, 26 May Str. house 27</a>`,
+    address: `<a href="https://www.google.com/maps/place/Bar+48/@41.6472818,41.6299166,17z/data=!4m6!3m5!1s0x4067877c6534400d:0x36e22db643766849!8m2!3d41.6474543!4d41.6323109!16s%2Fg%2F11rvh7wrxh" target="_blank">Batumi, 26 May Street, 27</a>`,
     telegram: `<a href="https://t.me/BAR48_Batumi" target="_blank">Telegram group</a>`,
     offer: `🎉 Special Offer: Beer Deposit!`,
     offer2: `<strong>5 beers — 20 ₾ </strong>(Valid for one work shift)<br><strong>12 beers — 50 ₾ </strong>(Valid for 14 days)`,
