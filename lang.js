@@ -24,7 +24,7 @@ const translations = {
     shots: `Shots`,
     smoothies: `Alcohol Smoothies`,
     cocktails: `Alcohol Cocktails`,
-    tequilaboom: `<font size="3">Tequila boom (40 ml) — 8 ₾<p>Tequila, sprite</p></font>`,
+    tequilaboom: `<font size="3">Tequila boom (40 ml) — 8 ₾<p>Tequila, Sprite</p></font>`,
     boyarasky: `<font size="3">Boyarasky (40 ml) — 11 ₾<p>Grenadine syrup, vodka, tabasco</p></font>`,
     valentinka: `<font size="3">Valentinka (40 ml) — 11 ₾<p>Author’s shot</p></font>`,
     greenmexican: `<font size="3">Green mexican (40 ml) — 13 ₾<p>Melon liqueur, lemon juice, tequila</p></font>`,
