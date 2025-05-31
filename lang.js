@@ -62,7 +62,7 @@ const translations = {
     espressomartini: `<font size="3">Espresso martini (150 ml) — 20 ₾<p>Vodka, coffee liqueur, coffee, sugar syrup</p></font>`,
     sexonthebeach: `<font size="3">Sex on the beach (200 ml) — 20 ₾<p>Vodka, peach liqueur, cranberry syrup, pineapple juice, lemon juice, ice</p></font>`,
     boulevardier: `<font size="3">Boulevardier (150 ml) — 20 ₾<p>Whiskey, red vermouth, campari, orange zest, ice</p></font>`,
-    pinacolada: `<font size="3">Pina-colada (250 ml) — 25 ₾<p>White rum, malibu liqueur, pineapple juice, coconut syrup, cream, ice</p></font>`,
+    pinacolada: `<font size="3">Pina-colada (250 ml) — 25 ₾<p>White rum, Malibu liqueur, pineapple juice, coconut syrup, cream, ice</p></font>`,
     mojito: `<font size="3">Mojito (250 ml) — 25 ₾<p>White rum, sprite, mojito syrup, lemon juice, mint, lemon, ice</p></font>`,
     longisland: `<font size="3">Long island (250 ml) — 25 ₾<p>Vodka, tequila, gin, rum, triple sec liqueur, lemon juice, cola / iced tea, ice</p></font>`
   },
