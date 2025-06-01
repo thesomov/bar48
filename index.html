@@ -139,21 +139,20 @@
 								</a>
 							</article>
 							<script>
-							function openYandex() {
+							function openYandexMaps(event) {
+								event.preventDefault();
+
 								if (/Android|iPhone|iPad/i.test(navigator.userAgent)) {
-									window.location.href = "yandexbusiness://profile/196356087912?intent-reviews";
-									setTimeout(function() {
-										window.location.href = "https://yandex.com.ge/profile/196356087912?intent-reviews";
-									}, 1500);
+									window.location.href = "https://yandex.com.ge/maps/-/CHGmvZPV";
 								} else {
-									window.open("https://yandex.com.ge/profile/196356087912?intent-reviews", "_blank");
+									window.open("https://yandex.com.ge/maps/-/CHGmvZPV", "_blank");
 								}
 							}
 							</script>
 
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://yandex.com.ge/profile/196356087912?intent-reviews" onclick="openYandex(); return false;">
-									<img src="/images/yandex.webp" class="image fit thumb" loading="lazy" decoding="async" alt="Яндекс Отзывы" />
+								<a href="https://yandex.com.ge/maps/-/CHGmvZPV" onclick="openYandexMaps(event);">
+									<img src="/images/yandex.webp" class="image fit thumb" loading="lazy" decoding="async" alt="Яндекс Карты" />
 								</a>
 							</article>
 						</div>
