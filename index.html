@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+ч<!DOCTYPE HTML>
 <!--
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -119,8 +119,21 @@
 						<div id="map"></div>
 						<p></p><hr><h2 data-i18n="pleaseleaveareview">Please leave a review</h2>
 						<div class="row">
+							<script>
+							function openGoogleMaps() {
+								if (/Android|iPhone|iPad/i.test(navigator.userAgent)) {
+									// Если мобильное устройство, пробуем открыть приложение
+									window.location.href = "google.maps://?q=Batumi";
+								} else {
+									// Если ПК, сразу открываем веб-страницу
+									window.location.href = "https://g.page/r/CUlodkO2LeI2EBM/review";
+								}
+							}
+							</script>
 							<article class="col-6 col-12-xsmall work-item">
-							<a href="https://g.page/r/CUlodkO2LeI2EBM/review" target="_blank"><img src="/images/google.webp" class="image fit thumb" loading="lazy" decoding="async" alt="" /></a>
+								<a href="https://g.page/r/CUlodkO2LeI2EBM/review" onclick="openGoogleMaps(); return false;">
+									<img src="/images/google.webp" class="image fit thumb" loading="lazy" decoding="async" alt="Google Reviews" />
+								</a>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 							<a href="https://yandex.com.ge/profile/196356087912?intent-reviews" target="_blank"><img src="/images/yandex.webp" class="image fit thumb" loading="lazy" decoding="async" alt="" /></a>
