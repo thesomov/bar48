@@ -122,8 +122,13 @@
 							<script>
 							function openGoogleMaps() {
 								if (/Android|iPhone|iPad/i.test(navigator.userAgent)) {
-									// Если мобильное устройство, пробуем открыть приложение
+									// Пробуем открыть приложение Google Maps
 									window.location.href = "google.maps://?q=Batumi";
+
+									// Если приложение не открылось, через 1.5 секунды переходим на веб-страницу
+									setTimeout(function() {
+										window.location.href = "https://g.page/r/CUlodkO2LeI2EBM/review";
+									}, 1500);
 								} else {
 									// Если ПК, открываем веб-страницу в новой вкладке
 									window.open("https://g.page/r/CUlodkO2LeI2EBM/review", "_blank");
@@ -136,6 +141,7 @@
 									<img src="/images/google.webp" class="image fit thumb" loading="lazy" decoding="async" alt="Google Reviews" />
 								</a>
 							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
 							<a href="https://yandex.com.ge/profile/196356087912?intent-reviews" target="_blank"><img src="/images/yandex.webp" class="image fit thumb" loading="lazy" decoding="async" alt="" /></a>
 							</article>
