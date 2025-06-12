@@ -2441,18 +2441,17 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: #ffffff;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #ffffff !important;
+		border: none;
+		color: #1a1a1a !important;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
-		height: 3.15em;
+		font-weight: 600;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
 		min-width: 10em;
@@ -2466,7 +2465,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #999999;
+			background-color: #f0f0f0;
 			color: #999999 !important;
 		}
 
@@ -2475,7 +2474,6 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: #333333;
-			border-color: #999999;
 			color: #999999 !important;
 		}
 
