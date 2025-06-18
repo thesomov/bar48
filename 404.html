@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+    Strata by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+  <head>
+    <meta name="description" content="Great drinks and a rock-bar atmosphere await you here every evening. Feeling down? Have a drink! — That's our motto! Enjoy the moment and pleasant company!" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJXPF8V3XT" loading="lazy"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-WJXPF8V3XT');
+    </script>
+    <title data-i18n="bar48batumi">Bar 48 - Batumi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link type="Image" href="images/favicon.ico" rel="icon" />
+    <link rel="alternate" hreflang="en" href="https://bar48.ge" />
+  </head>
+  <body class="is-preload">
+    <!-- Скрипт переключения языка -->
+    <script>
+      function setLanguage(lang) {
+        localStorage.setItem('language', lang);
+        document.querySelectorAll('#language-switcher button').forEach((btn) =>
+          btn.classList.remove('active')
+        );
+        const activeBtn = document.getElementById(`btn-${lang}`);
+        if (activeBtn) activeBtn.classList.add('active');
+        if (typeof updateLanguageContent === 'function') {
+          updateLanguageContent(lang);
+        }
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        const savedLang = localStorage.getItem('language') || 'en';
+        setLanguage(savedLang);
+      });
+    </script>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <h1><strong><font size="6">Bar 48</font></strong></h1><br />
+        <h1 data-i18n="open">Open from 00:30 to 06:00</h1>
+        <h1 data-i18n="address">
+          <a
+            href="https://www.google.com/maps/place/%D0%91%D0%B0%D1%80+48/@41.6472818,41.6299166,17z/data=!4m6!3m5!1s0x4067877c6534400d:0x36e22db643766849!8m2!3d41.6474543!4d41.6323109!16s%2Fg%2F11rvh7wrxh"
+            target="_blank"
+            >Batumi, 26 May Street, 27</a
+          >
+        </h1>
+        <h1><a href="tel:+995599549807">+995 599 54 98 07</a></h1>
+        <h1 data-i18n="telegram">
+          <a href="https://t.me/BAR48_Batumi" target="_blank">Telegram group</a>
+        </h1>
+        <!-- Кнопки -->
+        <div id="language-switcher">
+          <button onclick="setLanguage('en')" id="btn-en">En</button>
+          <button onclick="setLanguage('ka')" id="btn-ka">ქა</button>
+          <button onclick="setLanguage('ru')" id="btn-ru">Рус</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+      <section class="wrapper">
+        <div class="inner" style="text-align: center;">
+            <ul class="actions">
+            <li data-i18n="home"><a href="/" class="button">Home</a></li>
+          </ul><br><hr>
+          <h1 class="error-code" style="font-size: 8rem; margin-bottom: 20px;">404</h1>
+          <p class="error-message" style="font-size: 1.5rem;">The page is not found</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons"></ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="lang.js"></script>
+    <script>
+      initLang();
+    </script>
+  </body>
+</html>
